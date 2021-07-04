@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculatrice</title>
+    <link href="calculator.css" rel="stylesheet">
+    <script src="calculator.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator-grid">
+        <div class="output">
+            <input type="text" class="previous-operand" value="800">
+            <input type="text" class="current-operand" value="12">
+        </div>
+        <button onclick="calculer('sp',AC)" class="span-two">AC</button>
+        <button onclick="calculer('op',DEL)">DEL</button>
+        <button onclick="calculer('ch',%)">%</button>
+        <button onclick="calculer('sp',1)">1</button>
+        <button onclick="calculer('ch',2)">2</button>
+        <button onclick="calculer('ch',3)">3</button>
+        <button onclick="calculer('op',*)">*</button>
+        <button onclick="calculer('ch',4)">4</button>
+        <button onclick="calculer('ch',5)">5</button>
+        <button onclick="calculer('ch',6)">6</button>
+        <button onclick="calculer('op',+)">+</button>
+        <button onclick="calculer('ch',7)">7</button>
+        <button onclick="calculer('ch',8)">8</button>
+        <button onclick="calculer('ch',9)">9</button>
+        <button onclick="calculer('op',-)">-</button>
+        <button onclick="calculer('')">.</button>
+        <button onclick="calculer('dec',0)">0</button>
+        <button onclick="calculer('eg')" class="span-two">=</button>
+
+    </div>
+
+</body>
+
+</html>
